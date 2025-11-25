@@ -5,7 +5,8 @@
 }
 
 body {
-background-color: #9c6a45;
+background-color: #F4F0F1
+	;
 margin: 0;
 padding: 0;
 }
@@ -19,7 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #f0f6ff	;
 }
 
 ul li {
@@ -28,12 +29,9 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
-}
