@@ -35,3 +35,6 @@ ul li a {
   text-decoration: none;
 }
 
+#menu-options:hover{
+  background-color: #ffdbe1;
+}
