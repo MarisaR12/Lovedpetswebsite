@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loved Pets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Delicious+Handrawn&family=Zain:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="imageforwebsite/logo.png" type="image/x-icon">
+</head>
+  <body>
+    <ul id="navbar">
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="index.html" style="font-family: Chicle, serif;">Loved Pets</a></li>
+
+      <li class="dropdown">
+        <a class="dropbtn">Adopt</a>
+        <ul class="dropdown-content">
+          <li><a style="color:black;font-family:Zain, sans-serif;font-size:2vh;" href="adoption.html" >Animals</a></li>
+          <li><a style="color:black;font-family:Zain, sans-serif;font-size:2vh;"  href="adoption process.html">Adoption Process</a></li>
+        </ul>
+        <li><a href="Questions.html">Questions</a></li>
+      </li>
+    </ul>
+
+  
+<div class="container">
+  <div class="divider" style="margin-top: 5%;">
+    <span style="text-align: center;font-family: Titan One, sans-serif; ;font-size: 5vh;margin-top: 3%;color: #8fbbd6;">Donate</span>
+  </div>
+  <br>
+  <p style="font-family: zain;">Donating to our shelter is a great way to support the animals in need and help us continue to provide care and resources to those who cannot speak for themselves. Your donation will go towards providing food, shelter, medical care, and other essential needs for the animals in our care. Every donation, no matter how small, makes a difference and helps us continue to make a positive impact on the lives of animals in need. Thank you for considering a donation to our shelter.</p>
+
+  <div style="width: 80%; margin: 30px auto;">
+
+    <table border="1" cellpadding="12" cellspacing="0" 
+           style="width:100%; font-size:18px; text-align:left; font-family: zain;background-color: #ffffff;">
+
+      <tr style="background-color: #ffffff; font-weight:bold;">
+        <th style="width:40%;">Types of Donating:</th>
+        <th>What that means:</th>
+      </tr>
+
+      <tr>
+        <td>A single donation</td>
+        <td>A single donation made by the user one time.</td>
+      </tr>
+
+      <tr style="background-color: #ffffff;">
+        <td>Monthly/ Recurring Donations</td>
+        <td>An automatic donation made by users every month.</td>
+      </tr>
+
+      <tr>
+        <td>Medical donations</td>
+        <td>Donations made that go towards surgeries and veterinarian visits.</td>
+      </tr>
+
+      <tr style="background-color: #ffffff;">
+        <td>Physical item donations</td>
+        <td>Food, water, toys, etc. donated for the animal shelter.</td>
+      </tr>
+
+    </table>
+    <br>
+    <br>
+    <h2 style="text-align: center; font-family: Delicious Handrawn, cursive;">Make a donation</h2>
+    <form>
+
+      <label for="fname"> Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="eaddress">Email Address</label>
+      <input type="text" id="eaddress" name="emailaddress" placeholder="Your email..">
+
+
+      <label for="Address">Donation amount</label>
+      <input type="text" id="date" name="date" placeholder="Please enter amount in USD..">
+
+      <label for="Address">Card number</label>
+      <input type="text" id="date" name="date" placeholder="XXXX-XXXX-XXXX-XXXX">
+
+      <label for="Address">Expiration date</label>
+      <input type="text" id="date" name="date" placeholder="MM/YY">
+
+      <label for="Address">Security Code</label>
+      <input type="text" id="date" name="date" placeholder="CVV">
+
+      <label for="donationtype">Donation Type</label>
+      <select id="donationtype" name="donationtype">
+        <option value="blank">       </option>
+        <option value="cocoa">Single donation</option>
+        <option value="Monthly/ Recurring Donations	">Monthly/ Recurring Donations	</option>
+        <option value="Medical donations">Medical donations	</option>
+        <option value="Physical item donations">Physical item donations	</option>
+
+
+      </select>
+
+      <label for="message"> Message (optional)</label>
+      <input type="text" id="message" name="message" placeholder="      ">
+
+      <input style="font-size: 2.5vh;" type="submit" value="Donate!">
+    </form>
+  </div>  
+  </div>
+</html>
+</body>
