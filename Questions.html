@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loved Pets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Delicious+Handrawn&family=Zain:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="imageforwebsite/logo.png" type="image/x-icon">
+</head>
+  <body>
+    <ul id="navbar">
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="index.html" style="font-family: Chicle, serif;">Loved Pets</a></li>
+
+      <li class="dropdown">
+        <a class="dropbtn">Adopt</a>
+        <ul class="dropdown-content">
+          <li><a style="color:black;font-family:Zain, sans-serif;font-size:2vh;" href="adoption.html" >Animals</a></li>
+          <li><a style="color:black;font-family:Zain, sans-serif;font-size:2vh;"  href="adoption process.html">Adoption Process</a></li>
+        </ul>
+        <li><a href="Questions.html">Questions</a></li>
+      </li>
+    </ul>
+
+
+
+
+    <div class="divider" style="margin-top: 5%;">
+      <span style="text-align: center;font-family: Titan One, sans-serif; ;font-size: 5vh;margin-top: 3%;color: #8fbbd6;">Questions</span>
+    </div>
+    <br>
+    <br>
+
+    <button class="accordion1">Do volunteers need training . If they do what does it involve?
+</button>
+    <div class="panel1">
+      <p>Volunteers do need training. If you have volunteered before at a different animal shelter training is still needed to volunteer at Loved pets. Failure to attend training will result in not being able to volunteer.
+        <br>
+        Training involves learning safety protocols when it comes to taking care of the animals, learning the layout of the shelter, and other procedures.
+</p>
+    </div>
+
+    <button class="accordion1">animals, learning the layout of the shelter, and other procedures.
+      Are all medical records up to date. If so what does the animal shelter do to maintain animal health?
+</button>
+    <div class="panel1">
+      <p>All medical records for our available animals are up to date. If animals come from other shelters we make sure to get their past medical records in order to better understand our animals. At the shelter animals have veterinarian appointment were they are assessed and see if there are any problems. When animals first come to the shelter they have appointments every week to make sure they are adjusting correctly and then after a month they have appointments very month.
+</p>
+    </div>
+
+    <button class="accordion1">Is fostering an animal allowed?</button>
+    <div class="panel1">
+      <p>As of right now animals are not being fostered from our shelter. This is something that we are working on and hopefully soon we can offer this to our community. 
+</p>
+    </div>
+
+    <button class="accordion1">What happens if my application to adopt is denied?
+</button>
+        <div class="panel1">
+          <p>If your application is denied that means that you weren't chosen to adopt the animal of your chose. If this happens that doesn’t mean anything bad and you can still choose to adopt another animal from our shelter.
+    </p>
+        </div>
+
+     <button class="accordion1">What does the adoption fee mean?
+
+    </button>
+            <div class="panel1">
+              <p>The adoption fee includes the price for caring for your animal. This includes medical care, basic needs, and post-adoption support. If you are struggling to pay all of the adoption fee at once please contact us so that we can work out a payment plan.
+        </p>
+            </div>
+
+
+    <script>
+    var acc = document.getElementsByClassName("accordion1");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
+    
+  </html>
+  </body>
